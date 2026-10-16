@@ -7,15 +7,37 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 600px;
+  width: 100%;
 }
 
 .meta{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 15px;
 }
 
 img{
   width: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.meta:hover{
+  transition: .5s;
+  transform:scale(2);
+}
+
+h2{
+    width: 400px;
+    color:rgb(177, 93, 93);
+}
+
+p{
+    width: 500px;
+    color:rgb(177, 93, 93);
+}
+
+h1{
+  color: rgb(206, 54, 79);
 }

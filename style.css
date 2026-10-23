@@ -1,3 +1,8 @@
+html{
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-color:rgb(109, 57, 15);
 }
@@ -35,7 +40,7 @@ img{
 
 h2{
     width: 400px;
-    color:rgb(56, 31, 6);
+    color:rgb(49, 26, 2);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
     font-size: 30px;
 }
@@ -44,7 +49,19 @@ p{
     width: 400px;
     color:rgb(182, 134, 84);
     font-size: 20px;
+    font-family: 'Great Vibes', cursive;
 }
+
+footer{
+  background-color: rgb(88, 44, 8);
+  border-radius: 10px;
+
+}
+
+h3{
+  color:rgb(182, 134, 84);
+}
+
 
 h1{
   color: rgb(56, 29, 3);
@@ -52,12 +69,13 @@ h1{
   justify-content: center;
   align-items: center;
   padding-top: 15px;
-  font-size: 48px;
+  font-size: 50px;
+  font-family: 'Creepster', system-ui;
 
   text-shadow: 
     0 0 5px #fff,
-    0 0 10px #fff,
+    0 0 10px #f7cc9c,
     0 0 20px #f7af5c,
-    0 0 40px #f7af5c,
-    0 0 80px #f7af5c;
+    0 0 40px #ce9351,
+    0 0 80px #a36f33;
 }
